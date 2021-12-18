@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setEditStatus, editItem, addItem, setLoading, setError } from '../actions/actionCreators';
+import { setEditStatus, editItem, addItem } from '../actions/actionCreators';
 import { Redirect } from 'react-router';
 import Ring from './Ring';
 import Error from './Error';
